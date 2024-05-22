@@ -1,0 +1,49 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(235, 217, 145);
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.to-do-app {
+  width: 50%;
+  text-align: center;
+  padding: 1rem;
+  border: 3px solid blue;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+.button-add {
+  background-color: blue;
+}
+
+.add-task-container input,
+.add-task-container button {
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.tasks {
+  border: 1px solid ghostwhite;
+  padding: 6px;
+  margin: 6px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.tasks button {
+  float: right;
+  margin: auto 5px;
+  background-color: black;
+  color: red;
+}
